@@ -1,0 +1,35 @@
+.soc-card-indiv {
+  /* Existing styles (if any) */
+  position: fixed; /* Fix the card's position relative to the viewport */
+  top: 50%; /* Center the card vertically */
+  right: 20px; /* Position the card 20px from the right edge */
+  transform: translateY(-50%); /* Adjust vertical centering */
+  background-color: #312626; /* Example background color */
+  padding: 20px; /* Example padding */
+  border-radius: 8px; /* Example rounded corners */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Example shadow */
+  width: 200px; /* Example width */
+  text-align: center; /* center the text */
+  background-color: #312626;
+  z-index: 1000;
+}
+
+.text-block {
+  font-size: 1.2em;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.soc-usn-2 {
+  color: #555;
+  font-size: 0.9em;
+  margin-bottom: 10px;
+}
+
+.socmed-pfp {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  background-color: #312626; /* Placeholder background */
+  margin: 0 auto; /* center the image */
+}
